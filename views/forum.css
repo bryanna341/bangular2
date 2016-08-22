@@ -1,0 +1,12 @@
+
+p {
+   border: 2px solid yellow;
+    border-radius: 5px;
+ }
+ body {
+    background-image: url("http://i.imgur.com/InfkkQ7.png");
+}
+
+p.oblique {
+    font-style: oblique`;
+}

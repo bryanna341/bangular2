@@ -1,0 +1,6 @@
+<div class="page">
+    <p class="oblique"><h1>  <a href="https://limontreeg.github.io/psych-dash.github.io/">Psych-to-Go Chat </a></h1></p>
+    <div ng-repeat="topic in topics">
+        <a ui-sref="topic({topicId: topic._id})">{{ topic.name }}</a>
+    </div>
+</div>
